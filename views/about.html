@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+    <title>Sobre mi</title>
+</head>
+
+<body class="body background-pattern">
+    <header class="header">
+        <a class="logo-container" href="../index.html">
+            <img class="logo-image" src="../assets/images/logo.svg" alt="Main-Logo">
+            <p class="logo-text">DAnder</p>
+        </a>
+        <nav class="main-menu">
+            <ul class="main-menu-list">
+                <li class="main-menu-list-item">
+                    <a href="../index.html">Main</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="./mycv.html">MyCv</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="./works.html">Works</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="javascript: void(0);">AboutMe</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="./archive.html">Archive</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="title-container">
+            <h1>Sobre mi</h1>
+            <p>Un poco sobre mi!</p>
+        </section>
+        <ul class="about-me-container no-bullet-list">
+            <li class="about-me-as about-me-right">
+                <h4>¿Como soy en el rol de developer?</h4>
+                <p>Soy un desarrollador full stack, experimentado principalmente en el backend, tengo experiencia con tecnologías como .Net y .Net Core; aunque conozco otras también (Puedes ver mi cv <a href="./mycv.html" class="simple-text-link">aquí</a>).</p>
+            </li>
+            <li class="about-me-as about-me-left">
+                <h4>¿Como soy en mi vida de Gamer?</h4>
+                <p>Soy gamer por excelencia y me gustan muchos tipos de juegos, entre los que hay MMORPG's como World of Warcraft, Lineage II, Albion Online, RPG's como Baldur's Gate, The Witcher, Cyberpunk 2077, y un largo etc. <br> Aunque también disfruto de survivals , como por ejemplo el The Forest   </p>
+            </li>
+            <li class="about-me-as about-me-right">
+                <h4>¿Qué tipo de música me gusta?</h4>
+                <p>Escucho generos variados, aunque siempre vuelvo a mis siempre queridos Rock, Ska y Punk-Rock </p>
+            </li>
+        </ul>
+    </main>
+    <footer class="footer">
+        <section class="site-map-container">
+            <nav class="site-map-menu">
+                <ul class="site-map-menu-list">
+                    <li class="site-map-menu-list-item">
+                        <a href="../index.html">Main</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="./mycv.html">MyCv</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="./works.html">Works</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="javascript: void(0);">AboutMe</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="./archive.html">Archive</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="copyright-container">
+            <p class="copy">Copyright &copy;</p>
+        </section>
+        <section class="contact-form-container">
+            <form action="javascript: void(0)" method="POST" class="contact-form">
+                <input id="form-email-input" type="email" name="mail" placeholder="ingresá tu email!"
+                    class="form-input-mail">
+                <textarea id="form-text-area" name="motivo" placeholder="ingresá tu mensaje!" class="form-text-area"
+                    maxlength="200"></textarea>
+                <section class="bottom-form-section">
+                    <p id="form-text-area-char-counter" class="form-text-area-char-counter">0/200</p>
+                    <input id="form-text-area-reset-button" type="reset" value="reiniciar" class="form-input-button"
+                        disabled>
+                    <input type="submit" value="contactar!" class="form-input-button">
+                </section>
+            </form>
+        </section>
+    </footer>
+    <script src="../assets/js/functions.js"></script>
+</body>
+
+</html>

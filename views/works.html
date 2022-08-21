@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+    <title>Mis trabajos</title>
+</head>
+
+<body class="body background-pattern">
+    <header class="header">
+        <a class="logo-container" href="../index.html">
+            <img class="logo-image" src="../assets/images/logo.svg" alt="Main-Logo">
+            <p class="logo-text">DAnder</p>
+        </a>
+        <nav class="main-menu">
+            <ul class="main-menu-list">
+                <li class="main-menu-list-item">
+                    <a href="../index.html">Main</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="./mycv.html">MyCv</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="javascript: void(0);">Works</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="./about.html">AboutMe</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="./archive.html">Archive</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main ">
+        <section class="title-container">
+            <h1>Mis trabajos</h1>
+            <p>Esta es una lista de algunos de mis trabajos como freelance!</p>
+        </section>
+        <section class="works-container">
+            <ul class="post-list">
+                <li class="post-list-item">
+                    <a href="../index.html" class="no-size-up-anchor">
+                        <article class="post-box">
+                            <img src="../assets/images/works-images/main.png" alt="imágen de la pagina principal">
+                            <h4>Main</h4>
+                            <p>Página donde se muestran noticias e información variada</p>
+                        </article>
+                    </a>
+                </li>
+                <li class="post-list-item">
+                    <a href="./mycv.html" class="no-size-up-anchor">
+                        <article class="post-box">
+                            <img src="../assets/images/works-images/my-cv.png" alt="imágen de la pagina de mi cv">
+                            <h4>MyCv</h4>
+                            <p>Página donde ver una versión de mi CV</p>
+                        </article>
+                    </a>
+                </li>
+                <li class="post-list-item">
+                    <a href="javascript: void(0);" class="no-size-up-anchor">
+                        <article class="post-box">
+                            <img src="../assets/images/works-images/works.png" alt="imágen de la pagina sobre mis trabajos">
+                            <h4>Works</h4>
+                            <p>Esta página de portfolio</p>
+                        </article>
+                    </a>
+                </li>
+                <li class="post-list-item">
+                    <a href="./about.html" class="no-size-up-anchor">
+                        <article class="post-box">
+                            <img src="../assets/images/works-images/about.png" alt="imágen de la pagina sobre mi">
+                            <h4>AboutMe</h4>
+                            <p>Página donde cuento un poco sobre mi</p>
+                        </article>
+                    </a>
+                </li>
+                <li class="post-list-item">
+                    <a href="./archive.html" class="no-size-up-anchor">
+                        <article class="post-box">
+                            <img src="../assets/images/works-images/archive.png" alt="imágen de la pagina de archivo">
+                            <h4>Archive</h4>
+                            <p>Página donde almaceno un pequeño historial de las noticias pasadas</p>
+                        </article>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="site-map-container">
+            <nav class="site-map-menu">
+                <ul class="site-map-menu-list">
+                    <li class="site-map-menu-list-item">
+                        <a href="../index.html">Main</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="./mycv.html">MyCv</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="javascript: void(0);">Works</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="./about.html">AboutMe</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="./archive.html">Archive</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="copyright-container">
+            <p class="copy">Copyright &copy;</p>
+        </section>
+        <section class="contact-form-container">
+            <form action="javascript: void(0);" method="POST" class="contact-form">
+                <input id="form-email-input" type="email" name="mail" placeholder="ingresá tu email!"
+                    class="form-input-mail">
+                <textarea id="form-text-area" name="motivo" placeholder="ingresá tu mensaje!" class="form-text-area"
+                    maxlength="200"></textarea>
+                <section class="bottom-form-section">
+                    <p id="form-text-area-char-counter" class="form-text-area-char-counter">0/200</p>
+                    <input id="form-text-area-reset-button" type="reset" value="reiniciar" class="form-input-button"
+                        disabled>
+                    <input type="submit" value="contactar!" class="form-input-button">
+                </section>
+            </form>
+        </section>
+    </footer>
+    <script src="../assets/js/functions.js"></script>
+</body>
+
+</html>

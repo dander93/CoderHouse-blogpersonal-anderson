@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.svg">
+    <title>Archivo</title>
+</head>
+
+<body class="body background-pattern">
+    <header class="header">
+        <a class="logo-container" href="../index.html">
+            <img class="logo-image" src="../assets/images/logo.svg" alt="Main-Logo">
+            <p class="logo-text">DAnder</p>
+        </a>
+        <nav class="main-menu">
+            <ul class="main-menu-list">
+                <li class="main-menu-list-item">
+                    <a href="../index.html">Main</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="./mycv.html">MyCv</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="./works.html">Works</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="./about.html">AboutMe</a>
+                </li>
+                <li class="main-menu-list-item">
+                    <a href="javascript: void(0)">Archive</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="title-container">
+            <h1>Archivo del blog</h1>
+            <p>Estas son algunas de las cosas que fueron pasando!</p>
+        </section>
+        <section class="works-container">
+            <ul class="post-list">
+                <li class="post-list-item">
+                    <article class="post-box">
+                        <img src="../assets/images/post-images/caida-bitcoin.jpg" alt="imágen de la pagina principal">
+                        <h4>Bitcoin: En picada</h4>
+                        <p>Hace ya varias semanas se generó una caída generalizada en el mercado de las criptomonedas</p>
+                    </article>
+                </li>
+                <li class="post-list-item">
+                    <article class="post-box">
+                        <img src="../assets/images/post-images/cyberpunk-1-52.jpg" alt="imágen de la pagina de mi cv">
+                        <h4>Cyberpunk 2077 recibe el parche 1.52 con mejoras y soluciones de bugs</h4>
+                        <p>Este nuevo parche soluciona ciertos bugs y fallos del juego de rol futurista</p>
+                    </article>
+                </li>
+                <li class="post-list-item">
+                    <article class="post-box">
+                        <img src="../assets/images/post-images/fin-ie.jpg" alt="imágen de la pagina sobre mis trabajos">
+                        <h4>Adiós, Internet Explorer: Microsoft anunció que retirará el navegador tras 27 años</h4>
+                        <p>La retirada del soporte de Internet Explorer 11 no afectará a las aplicaciones del navegador basadas en servidores</p>
+                    </article>
+                </li>
+                <li class="post-list-item">
+                    <article class="post-box">
+                        <img src="../assets/images//post-images/microsoft.jpg" alt="imágen de la pagina sobre mi">
+                        <h4>Fin de soporte a .Net Core 3.1</h4>
+                        <p>Microsoft fija el fin de soporte a .Net core 3.1 para el 13 de diciembre de 2022</p>
+                    </article>
+                </li>
+                <li class="post-list-item">
+                    <article class="post-box">
+                        <img src="../assets/images/post-images/fibra.jpg" alt="imágen de la pagina de archivo">
+                        <h4>Hacia el internet cuántico</h4>
+                        <p>Fsicos consiguen conectar por primera vez dos átomos separados por má de 30km</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="site-map-container">
+            <nav class="site-map-menu">
+                <ul class="site-map-menu-list">
+                    <li class="site-map-menu-list-item">
+                        <a href="../index.html">Main</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="./mycv.html">MyCv</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="./works.html">Works</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="./about.html">AboutMe</a>
+                    </li>
+                    <li class="site-map-menu-list-item">
+                        <a href="javascript: void(0);">Archive</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="copyright-container">
+            <p class="copy">Copyright &copy;</p>
+        </section>
+        <section class="contact-form-container">
+            <form action="javascript: void(0);" method="POST" class="contact-form">
+                <input id="form-email-input" type="email" name="mail" placeholder="ingresá tu email!"
+                    class="form-input-mail">
+                <textarea id="form-text-area" name="motivo" placeholder="ingresá tu mensaje!" class="form-text-area"
+                    maxlength="200"></textarea>
+                <section class="bottom-form-section">
+                    <p id="form-text-area-char-counter" class="form-text-area-char-counter">0/200</p>
+                    <input id="form-text-area-reset-button" type="reset" value="reiniciar" class="form-input-button"
+                        disabled>
+                    <input type="submit" value="contactar!" class="form-input-button">
+                </section>
+            </form>
+        </section>
+    </footer>
+    <script src="../assets/js/functions.js"></script>
+</body>
+
+</html>

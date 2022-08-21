@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg">
+    <title>Pagina principal</title>
+</head>
+
+<body class="body background-pattern">
+    <div class="main-container">
+
+        <header class="header">
+            <a class="logo-container" href="javascript: void(0);">
+                <img class="logo-image" src="./assets/images/logo.svg" alt="Main-Logo">
+                <p class="logo-text">DAnder</p>
+            </a>
+            <nav class="main-menu">
+                <ul class="main-menu-list">
+                    <li class="main-menu-list-item">
+                        <a href="javascript: void(0);">Main</a>
+                    </li>
+                    <li class="main-menu-list-item">
+                        <a href="./views/mycv.html">MyCv</a>
+                    </li>
+                    <li class="main-menu-list-item">
+                        <a href="./views/works.html">Works</a>
+                    </li>
+                    <li class="main-menu-list-item">
+                        <a href="./views/about.html">AboutMe</a>
+                    </li>
+                    <li class="main-menu-list-item">
+                        <a href="./views/archive.html">Archive</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="title-container">
+                <h1 class="section-title">Noticias</h1>
+                <p>Estas son las últimas noticias!</p>
+            </section>
+
+            <section class="slider-container">
+                <div class="slider-box">
+                    <ul id="slides" class="slides">
+                        <li id="slide-1"></li>
+                        <li id="slide-2"></li>
+                        <li id="slide-3"></li>
+                        <li id="slide-4"></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="post-container">
+                <ol class="post-list no-bullet-list">
+                    <li class="post-list-item">
+                        <article id="post-1" class="post-box">
+                            <img src="./assets/images/main-images/asus-smart.jpg" alt="post imagen 1">
+                            <h4 class="post-title">Diseño compacto</h4>
+                            <p class="post-description">Asus presenta Zenfone 9, un celular de tamaño compacto con
+                                pantalla de 5,9</p>
+                            <a class="simple-text-link" href="#slide-1">Ver más</a>
+                        </article>
+                    </li>
+                    <li class="post-list-item">
+                        <article id="post-2" class="post-box">
+                            <img src="./assets/images/main-images/net-core-logo.png" alt="post imagen 2">
+                            <h4 class="post-title">¿Qué es .Net Core?</h4>
+                            <p class="post-description">Una guía para iniciarse en .Net Core y no morir en el intento
+                            </p>
+                            <a class="simple-text-link" href="#slide-2">Ver más</a>
+                        </article>
+                    </li>
+                    <li class="post-list-item">
+                        <article id="post-3" class="post-box">
+                            <img src="http://placekitten.com/1920/500" alt="post imagen 3">
+                            <h4 class="post-title">El michi de maquetado está de vuelta</h4>
+                            <p class="post-description">El super michi para maquetado</p>
+                            <a class="simple-text-link" href="#slide-3">Ver más</a>
+                        </article>
+                    </li>
+                    <li class="post-list-item">
+                        <article id="post-4" class="post-box">
+                            <img src="./assets/images/main-images/tlk-classic.jpg" alt="post imagen 4">
+                            <h4 class="post-title">¡Ya hay Fecha de la TLK!</h4>
+                            <p class="post-description">La tan ansiada fecha fue anunciada por Blizzard</p>
+                            <a class="simple-text-link" href="#slide-4">Ver más</a>
+                        </article>
+                    </li>
+                </ol>
+            </section>
+        </main>
+        <footer class="footer">
+            <section class="site-map-container">
+                <nav class="site-map-menu">
+                    <ul class="site-map-menu-list">
+                        <li class="site-map-menu-list-item">
+                            <a href="javascript: void(0);">Main</a>
+                        </li>
+                        <li class="site-map-menu-list-item">
+                            <a href="./views/mycv.html">MyCv</a>
+                        </li>
+                        <li class="site-map-menu-list-item">
+                            <a href="./views/works.html">Works</a>
+                        </li>
+                        <li class="site-map-menu-list-item">
+                            <a href="./views/about.html">AboutMe</a>
+                        </li>
+                        <li class="site-map-menu-list-item">
+                            <a href="./views/archive.html">Archive</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="copyright-container">
+                <p class="copy">Copyright &copy;</p>
+            </section>
+            <section class="contact-form-container">
+                <form action="javascript: void(0);" method="POST" class="contact-form">
+                    <input id="form-email-input" type="email" name="mail" placeholder="ingresá tu email!"
+                        class="form-input-mail">
+                    <textarea id="form-text-area" name="motivo" placeholder="ingresá tu mensaje!" class="form-text-area"
+                        maxlength="200"></textarea>
+                    <section class="bottom-form-section">
+                        <p id="form-text-area-char-counter" class="form-text-area-char-counter">0/200</p>
+                        <input id="form-text-area-reset-button" type="reset" value="reiniciar" class="form-input-button"
+                            disabled>
+                        <input type="submit" value="contactar!" class="form-input-button">
+                    </section>
+                </form>
+            </section>
+        </footer>
+    </div>
+    <script src="./assets/js/functions.js"></script>
+    <script src="./assets/js/main-load-slider.js"></script>
+</body>
+
+</html>
