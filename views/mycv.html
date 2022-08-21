@@ -13,133 +13,140 @@
 </head>
 
 <body class="background-pattern">
+    <div class="min-vh-100">
 
-    <header class="container-fluid py-2 d-flex justify-content-between border-bottom border-dark">
-        <a class="navbar-brand d-flex ml" href="../index.html">
-            <img class="d-inline-block align-text-top logo-image" src="../assets/images/logo.svg" alt="Main-Logo">
-            <p class="d-inline-block mt-4 text-warning">DAnder</p>
-        </a>
-        <nav class="navbar navbar-expand-lg">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-main-menu"
-                aria-controls="nav-main-menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nav-main-menu">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-end">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Main</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-warning border-bottom border-warning" aria-current="page"
-                            href="javascript: void(0);">MyCv</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="./works.html">Works</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./about.html">AboutMe</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="./archive.html">Archive</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main class="main">
-        <section class="title-container">
-            <h1>Mi Curriculum Vitae</h1>
-            <p>Un poco de mi experiencia!</p>
-        </section>
-        <section class="cv-container">
-            <section class="cv-section">
-                <div class="photo-area">
-                    <img src="../assets/images/mycv-images/person-icon.png" alt="una foto mía" class="my-photo">
+        <header class="container-fluid py-2 d-flex justify-content-between border-bottom border-dark">
+            <a class="navbar-brand d-flex ml" href="../index.html">
+                <img class="d-inline-block align-text-top logo-image" src="../assets/images/logo.svg" alt="Main-Logo">
+                <p class="d-inline-block mt-4 text-warning">DAnder</p>
+            </a>
+            <nav class="navbar navbar-expand-md">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-main-menu"
+                    aria-controls="nav-main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-main-menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-end">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Main</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning border-bottom border-warning fw-semibold"
+                                aria-current="page" href="javascript: void(0);">MyCv</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./works.html">Works</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./about.html">AboutMe</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./archive.html">Archive</a></li>
+                    </ul>
                 </div>
-                <ul class="no-bullet-list personal-data">
-                    <li class="personal-data-item">
-                        <p class="data-description">Nombre</p>
-                        <p class="data-value">Douglas Anderson</p>
-                    </li>
-                    <li class="personal-data-item">
-                        <p class="data-description">segunda linea</p>
-                        <p class="data-value">segundo valor</p>
-                    </li>
-                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="title-container">
+                <h1>Mi Curriculum Vitae</h1>
+                <p>Un poco de mi experiencia!</p>
             </section>
-            <section class="cv-section">
-                <h4 class="cv-section-title">Experiencia</h4>
-                <ul class="no-bullet-list cv-section-list">
-                    <li>
-                        <h5>Desarrollador Fullstack .NET sr</h5>
-                        <p><strong>Empresa X</strong></p>
-                        <p class="cv-section-list-description">Como desarrollador fullstack sr me encargo de llevar
-                            adelante code reviews, analizar y solucionar problemáticas de los clientes y mejorar la
-                            arquitectura de las aplicaciones que tengo a cargo</p>
-                        <h6>skills</h6>
-                        <ul class="no-bullet-list cv-section-sub-list">
-                            <li>.Net Core</li>
-                            <li>Html5</li>
-                            <li>CSS3</li>
-                            <li>Micro servicios</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h5>Desarrollador Fullstack .NET ssr</h5>
-                        <p>Empresa Y</p>
-                        <p class="cv-section-list-description">Como desarrollador fullstack ssr me encargo de llevar
-                            adelante el desarrollo de la aplicación utilizando buenas prácticas de desarrollo</p>
-                        <h6>skills</h6>
-                        <ul class="no-bullet-list cv-section-sub-list">
-                            <li>.Net Core</li>
-                            <li>Html5</li>
-                            <li>CSS3</li>
-                            <li>Micro servicios</li>
-                        </ul>
-                    </li>
-                </ul>
+            <section class="cv-container">
+                <section class="cv-section">
+                    <div class="photo-area">
+                        <img src="../assets/images/mycv-images/person-icon.png" alt="una foto mía" class="my-photo">
+                    </div>
+                    <ul class="no-bullet-list personal-data">
+                        <li class="personal-data-item">
+                            <p class="data-description">Nombre</p>
+                            <p class="data-value">Douglas Anderson</p>
+                        </li>
+                        <li class="personal-data-item">
+                            <p class="data-description">segunda linea</p>
+                            <p class="data-value">segundo valor</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="cv-section">
+                    <h4 class="cv-section-title">Experiencia</h4>
+                    <ul class="no-bullet-list cv-section-list">
+                        <li>
+                            <h5>Desarrollador Fullstack .NET sr</h5>
+                            <p><strong>Empresa X</strong></p>
+                            <p class="cv-section-list-description">Como desarrollador fullstack sr me encargo de llevar
+                                adelante code reviews, analizar y solucionar problemáticas de los clientes y mejorar la
+                                arquitectura de las aplicaciones que tengo a cargo</p>
+                            <h6>skills</h6>
+                            <ul class="no-bullet-list cv-section-sub-list">
+                                <li>.Net Core</li>
+                                <li>Html5</li>
+                                <li>CSS3</li>
+                                <li>Micro servicios</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h5>Desarrollador Fullstack .NET ssr</h5>
+                            <p>Empresa Y</p>
+                            <p class="cv-section-list-description">Como desarrollador fullstack ssr me encargo de llevar
+                                adelante el desarrollo de la aplicación utilizando buenas prácticas de desarrollo</p>
+                            <h6>skills</h6>
+                            <ul class="no-bullet-list cv-section-sub-list">
+                                <li>.Net Core</li>
+                                <li>Html5</li>
+                                <li>CSS3</li>
+                                <li>Micro servicios</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="cv-section">
+                    <h4 class="cv-section-title">Educación</h4>
+                    <ul class="no-bullet-list cv-section-list">
+                        <li>
+                            <h5 class="cv-section-title">Educación académica</h5>
+                            <ul class="no-bullet-list cv-section-list">
+                                <li>
+                                    <h5>UTN FRBA (Universidad Tecnologia Nacional - Facultad Regional Buenos Aires)</h5>
+                                    <h6>Ingeniería en Sistemas de información</h6>
+                                </li>
+                                <li>
+                                    <h5>Escuela Técnica N° 36 Almirante Guillermo Brown</h5>
+                                    <h6>Tecnicatura en computación</h6>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h5 class="cv-section-title">Cursos</h5>
+                            <ul class="no-bullet-list cv-section-list">
+                                <li>
+                                    <h5>Desarrollo Web</h5>
+                                    <h6>@CoderHouse</h6>
+                                </li>
+                                <li>
+                                    <h5>Criptografía y Blockchain</h5>
+                                    <h6>@Educación IT</h6>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="cv-buttons-container">
+                    <button class="button main-button">Descargar</button>
+                </section>
             </section>
-            <section class="cv-section">
-                <h4 class="cv-section-title">Educación</h4>
-                <ul class="no-bullet-list cv-section-list">
-                    <li>
-                        <h5 class="cv-section-title">Educación académica</h5>
-                        <ul class="no-bullet-list cv-section-list">
-                            <li>
-                                <h5>UTN FRBA (Universidad Tecnologia Nacional - Facultad Regional Buenos Aires)</h5>
-                                <h6>Ingeniería en Sistemas de información</h6>
-                            </li>
-                            <li>
-                                <h5>Escuela Técnica N° 36 Almirante Guillermo Brown</h5>
-                                <h6>Tecnicatura en computación</h6>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h5 class="cv-section-title">Cursos</h5>
-                        <ul class="no-bullet-list cv-section-list">
-                            <li>
-                                <h5>Desarrollo Web</h5>
-                                <h6>@CoderHouse</h6>
-                            </li>
-                            <li>
-                                <h5>Criptografía y Blockchain</h5>
-                                <h6>@Educación IT</h6>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            <section class="cv-buttons-container">
-                <button class="button main-button">Descargar</button>
-            </section>
-        </section>
-    </main>
+        </main>
+
+    </div>
 
     <footer class="container-fluid w-100 d-flex justify-content-between border-top border-dark">
         <section class="d-none d-md-inline-block d-lg-inline-block d-xl-inline-block d-xxl-inline-block col-2">
             <nav class="navbar d-fled flex-column align-content-between">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="../index.html">Main</a></li>
-                    <li class="nav-item active">
-                        <a href="javascript: void(0);">MyCv</a>
+                    <li class="nav-item"><a class="text-decoration-none text-black-50" href="../index.html">Main</a>
                     </li>
-                    <li class="nav-item"><a href="./works.html">Works</a></li>
-                    <li class="nav-item"><a href="./about.html">AboutMe</a></li>
-                    <li class="nav-item"><a href="./archive.html">Archive</a></li>
+                    <li class="nav-item">
+                        <a class="fw-semibold text-decoration-none text-warning" href="javascript: void(0);">MyCv</a>
+                    </li>
+                    <li class="nav-item"><a class="text-decoration-none text-black-50" href="./works.html">Works</a>
+                    </li>
+                    <li class="nav-item"><a class="text-decoration-none text-black-50" href="./about.html">AboutMe</a>
+                    </li>
+                    <li class="nav-item"><a class="text-decoration-none text-black-50" href="./archive.html">Archive</a>
+                    </li>
                 </ul>
             </nav>
         </section>
