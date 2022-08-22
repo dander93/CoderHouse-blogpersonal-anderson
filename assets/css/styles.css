@@ -7,7 +7,7 @@
     Commons
 **/
 .text-shadow-dark{
-    text-shadow: 1px 1px 10px rgb(var(--bs-dark-rgb))!important;
+    text-shadow: 1px 1px 7px rgb(var(--bs-dark-rgb))!important;
 }
 
 /*
