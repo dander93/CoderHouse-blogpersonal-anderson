@@ -13,8 +13,9 @@
 </head>
 
 <body class="background-pattern">
-    <div class="vh-100">
-        <header class="container-fluid py-2 d-flex justify-content-between border-bottom border-dark">
+    <div class="min-vh-100">
+
+        <header class="container-fluid bg-dark bg-opacity-25 py-2 d-flex justify-content-between border-bottom border-dark">
             <a class="navbar-brand d-flex ml" href="../index.html">
                 <img class="d-inline-block align-text-top logo-image" src="../assets/images/logo.svg" alt="Main-Logo">
                 <p class="d-inline-block mt-4 text-warning">DAnder</p>
@@ -39,10 +40,10 @@
             </nav>
         </header>
 
-        <main class="main">
-            <section class="title-container">
-                <h1>Sobre mi</h1>
-                <p>Un poco sobre mi!</p>
+        <main class="container-fluid">
+            <section class="col-4 m-1 border border-dark">
+                <h1 class="fs-2 fw-normal mx-2 text-shadow-dark">Sobre mi</h1>
+                <p class="fw-light mx-2 text-white">Un poco sobre mi!</p>
             </section>
             <ul class="about-me-container no-bullet-list">
                 <li class="about-me-as about-me-right">
@@ -65,6 +66,7 @@
                 </li>
             </ul>
         </main>
+
     </div>
 
     <footer class="container-fluid w-100 d-flex justify-content-between border-top border-dark bg-dark bg-opacity-50">

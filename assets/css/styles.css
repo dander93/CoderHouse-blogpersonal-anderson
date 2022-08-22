@@ -3,6 +3,17 @@
 }
 
 
+/*
+    Commons
+**/
+.text-shadow-dark{
+    text-shadow: 1px 1px 10px rgb(var(--bs-dark-rgb))!important;
+}
+
+/*
+    Header
+**/
+
 .logo-image {
     width: 80px;
     height: 70px;
