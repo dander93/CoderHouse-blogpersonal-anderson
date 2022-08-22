@@ -41,50 +41,54 @@
         </header>
 
         <main class="container-fluid">
-            <section class="col-4 m-1 border border-dark">
+            <section class="col-4 m-1 border border-dark d-none d-md-block d-lg-block d-xl-block d-xxl-block">
                 <h1 class="fs-2 fw-normal mx-2 text-shadow-dark">Mi Curriculum Vitae</h1>
                 <p class="mx-2 fw-light text-white">Un poco de mi experiencia!</p>
             </section>
-            <section class="cv-container">
-                <section class="cv-section">
-                    <div class="photo-area">
-                        <img src="../assets/images/mycv-images/person-icon.png" alt="una foto mía" class="my-photo">
+
+            <section class="container-fluid my-3 w-75 bg-white shadow">
+
+                <section class="pt-2 d-flex">
+                    <div class="border border-dark shadow personal-photo">
+                        <img class="w-100" src="../assets/images/mycv-images/person-icon.png" alt="una foto mía">
                     </div>
-                    <ul class="no-bullet-list personal-data">
+                    <ul class="list-unstyled m-4">
                         <li class="personal-data-item">
-                            <p class="data-description">Nombre</p>
-                            <p class="data-value">Douglas Anderson</p>
+                            <p class="d-inline-block fw-bold">Nombre: </p>
+                            <p class="d-inline-block">Douglas Anderson</p>
                         </li>
                         <li class="personal-data-item">
-                            <p class="data-description">segunda linea</p>
-                            <p class="data-value">segundo valor</p>
+                            <p class="d-inline-block fw-bold">DNI:</p>
+                            <p class="d-inline-block">12.345.678</p>
                         </li>
                     </ul>
                 </section>
-                <section class="cv-section">
-                    <h4 class="cv-section-title">Experiencia</h4>
-                    <ul class="no-bullet-list cv-section-list">
+
+                <section class="mt-3 col">
+                    <h4 class="fw-semibold fs-4 mx-3">Experiencia</h4>
+                    <ul class="list-unstyled mx-5">
                         <li>
-                            <h5>Desarrollador Fullstack .NET sr</h5>
-                            <p><strong>Empresa X</strong></p>
-                            <p class="cv-section-list-description">Como desarrollador fullstack sr me encargo de llevar
+                            <h5 class="fs-5 fw-semibold">Desarrollador Fullstack .NET sr</h5>
+                            <p><strong class="fw-semibold">Empresa X</strong></p>
+                            <p>Como desarrollador fullstack sr me encargo de llevar
                                 adelante code reviews, analizar y solucionar problemáticas de los clientes y mejorar la
                                 arquitectura de las aplicaciones que tengo a cargo</p>
-                            <h6>skills</h6>
-                            <ul class="no-bullet-list cv-section-sub-list">
+
+                            <h6 class="fs-6 fw-semibold">skills</h6>
+                            <ul class="list-unstyled d-flex justify-content-evenly">
                                 <li>.Net Core</li>
                                 <li>Html5</li>
                                 <li>CSS3</li>
                                 <li>Micro servicios</li>
                             </ul>
                         </li>
-                        <li>
-                            <h5>Desarrollador Fullstack .NET ssr</h5>
-                            <p>Empresa Y</p>
-                            <p class="cv-section-list-description">Como desarrollador fullstack ssr me encargo de llevar
+                        <li class="py-3">
+                            <h5 class="fs-5 fw-semibold">Desarrollador Fullstack .NET ssr</h5>
+                            <p><strong class="fw-semibold">Empresa Y</strong></p>
+                            <p>Como desarrollador fullstack ssr me encargo de llevar
                                 adelante el desarrollo de la aplicación utilizando buenas prácticas de desarrollo</p>
                             <h6>skills</h6>
-                            <ul class="no-bullet-list cv-section-sub-list">
+                            <ul class="list-unstyled d-flex justify-content-evenly">
                                 <li>.Net Core</li>
                                 <li>Html5</li>
                                 <li>CSS3</li>
@@ -93,46 +97,46 @@
                         </li>
                     </ul>
                 </section>
-                <section class="cv-section">
-                    <h4 class="cv-section-title">Educación</h4>
-                    <ul class="no-bullet-list cv-section-list">
-                        <li>
-                            <h5 class="cv-section-title">Educación académica</h5>
-                            <ul class="no-bullet-list cv-section-list">
+                <section class="col">
+                    <h4 class="fw-semibold fs-4 mx-3">Educación</h4>
+                    <ul class="list-unstyled mx-5">
+                        <li class="pb-3">
+                            <h5 class="fw-semibold fs-5">Educación académica</h5>
+                            <ul class="list-unstyled mx-3">
                                 <li>
-                                    <h5>UTN FRBA (Universidad Tecnologia Nacional - Facultad Regional Buenos Aires)</h5>
-                                    <h6>Ingeniería en Sistemas de información</h6>
+                                    <h5 class="fw-semibold fs-6">UTN FRBA (Universidad Tecnologia Nacional - Facultad Regional Buenos Aires)</h5>
+                                    <h6 class="fs-6 px-3 py-1">Ingeniería en Sistemas de información</h6>
                                 </li>
                                 <li>
-                                    <h5>Escuela Técnica N° 36 Almirante Guillermo Brown</h5>
-                                    <h6>Tecnicatura en computación</h6>
+                                    <h5 class="fs-5">Escuela Técnica N° 36 Almirante Guillermo Brown</h5>
+                                    <h6 class="fs-6 px-3 py-1">Tecnicatura en computación</h6>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <h5 class="cv-section-title">Cursos</h5>
-                            <ul class="no-bullet-list cv-section-list">
+                            <h5 class="fw-semibold fs-5">Cursos</h5>
+                            <ul class="list-unstyled mx-3">
                                 <li>
-                                    <h5>Desarrollo Web</h5>
-                                    <h6>@CoderHouse</h6>
+                                    <h5 class="fw-semibold fs-6">Desarrollo Web</h5>
+                                    <h6 class="fs-6 px-4 fw-semibold fs-6">@CoderHouse</h6>
                                 </li>
                                 <li>
-                                    <h5>Criptografía y Blockchain</h5>
-                                    <h6>@Educación IT</h6>
+                                    <h5 class="fw-semibold fs-6">Criptografía y Blockchain</h5>
+                                    <h6 class="fs-6 px-4 fw-semibold fs-6">@Educación IT</h6>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </section>
-                <section class="cv-buttons-container">
-                    <button class="button main-button">Descargar</button>
+                <section class="col pb-3 d-flex justify-content-end">
+                    <button class="btn btn-warning col col-md-2">Descargar</button>
                 </section>
             </section>
         </main>
 
     </div>
 
-    <footer class="container-fluid w-100 d-flex justify-content-between border-top border-dark bg-dark bg-opacity-50">
+    <footer class="container-fluid w-100 d-flex justify-content-between border-top border-dark bg-dark bg-opacity-50 pb-1">
         <section class="d-none d-md-inline-block d-lg-inline-block d-xl-inline-block d-xxl-inline-block col-2">
             <nav class="navbar d-fled flex-column align-content-between">
                 <ul class="navbar-nav">
