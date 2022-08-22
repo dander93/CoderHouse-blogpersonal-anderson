@@ -10,6 +10,10 @@
     text-shadow: 1px 1px 7px rgb(var(--bs-dark-rgb))!important;
 }
 
+.vh-50{
+    max-height: 50vh !important;
+}
+
 /*
     Header
 **/
