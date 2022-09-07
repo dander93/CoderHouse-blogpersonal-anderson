@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://dander93.github.io/CoderHouse-blogpersonal-anderson/sitemap.xml
