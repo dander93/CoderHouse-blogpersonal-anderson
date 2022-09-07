@@ -10,7 +10,8 @@
     .navbar-section {
         .navbar-nav {
             a.active {
-                @extend %footer-links-tyle-active;
+                @include mixin-footer-links-tyle-active(var(--main-color), underline);
+                // @extend %footer-links-tyle-active;
             }
 
             a {

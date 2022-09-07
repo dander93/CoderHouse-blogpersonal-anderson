@@ -1,5 +1,8 @@
 @import "./modules/custom/commons";
 
+@import "./modules/custom/extends";
+@import "./modules/custom/mixins";
+
 @import "./modules/bootstrap/header";
 @import "./modules/bootstrap/utilities";
 @import "./modules/bootstrap/cards";
@@ -8,5 +11,3 @@
 
 @import "./modules/custom/header";
 @import "./modules/custom/footer";
-
-@import "./modules/custom/extends";
