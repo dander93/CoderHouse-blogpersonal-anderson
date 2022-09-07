@@ -1,0 +1,17 @@
+
+Todos los sitios con su correspondiente Title
+Todos los sitios con su correspondiente H1, único por pagina
+
+Tanto la imagen del degradado del background, como el logo del sitio son formato svg para que puedan recalcular el tamaño, color etc
+
+Agrego meta keywords a todas las paginas
+Agrego meta description a todas las paginas
+Cambio meta lang a español
+Corregí el contenido al idioma correspondiente a meta lang
+Mantengo un outline lo más correcto posible
+Corregí todas las descripciones de las imágenes y agregué las faltantes
+Mejoré los tiempos de carga haciendo que algunas imágenes disminuyan su peso
+Verifiqué la navegabilidad entre páginas
+Agregué el archivo sitemap.xml para que los robots puedan hacer un correcto spidering
+Agregué el archivo robots.txt para facilitar el spidering de los robots
+correjí los links no accionables para que en lugar de no accionar redirigan al mismo sitio (javascript:void(0) por #.). Esto en un mock no tiene mucho sentido, pero mejora al seo de la web también
