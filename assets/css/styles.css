@@ -104,7 +104,7 @@ body {
     transform: rotateX(360deg);
     filter: invert(80%) sepia(88%); } }
 
-.logo-image {
+.navbar-brand .logo-image {
   width: 90px;
   height: 56px; }
 

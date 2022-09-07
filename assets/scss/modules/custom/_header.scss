@@ -3,16 +3,19 @@
  * */
 @import "../custom/animations";
 
-.logo-image {
-    width: 90px;
-    height: 56px;
-}
+.navbar-brand {
 
-.navbar-brand:hover .logo-image {
-    animation: logo-animacion 2s infinite linear;
-}
+    .logo-image {
+        width: 90px;
+        height: 56px;
+    }
 
-.navbar-brand:hover p {
-    text-shadow: 1px 1px 3px var(--main-color);
-    border-bottom: 1px dotted var(--main-color);
+    &:hover .logo-image {
+        animation: logo-animacion 2s infinite linear;
+    }
+
+    &:hover p {
+        text-shadow: 1px 1px 3px var(--main-color);
+        border-bottom: 1px dotted var(--main-color);
+    }
 }
