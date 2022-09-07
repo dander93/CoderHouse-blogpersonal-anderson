@@ -80,7 +80,10 @@ body {
  *   Modules - Bootstrap - Cards
  **/
 .card-img-top {
-  max-height: 25em; }
+  height: 10em !important; }
+
+.carousel-item img {
+  height: 25rem; }
 
 /*
  * Modules - Bootstrap - Buttons
