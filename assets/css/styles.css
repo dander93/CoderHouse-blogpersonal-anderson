@@ -120,3 +120,13 @@ body {
  * */
 #form-text-area {
   resize: none; }
+
+.footer .navbar-section .navbar-nav a, .footer .navbar-section .navbar-nav a.active {
+  text-decoration: none; }
+
+.footer .navbar-section .navbar-nav a {
+  color: var(--darken-color); }
+
+.footer .navbar-section .navbar-nav a.active {
+  color: var(--main-color);
+  font-weight: 500; }

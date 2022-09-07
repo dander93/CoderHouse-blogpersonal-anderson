@@ -5,3 +5,17 @@
 #form-text-area {
     resize: none;
 }
+
+.footer {
+    .navbar-section {
+        .navbar-nav {
+            a.active {
+                @extend %footer-links-tyle-active;
+            }
+
+            a {
+                @extend %footer-links-style;
+            }
+        }
+    }
+}
