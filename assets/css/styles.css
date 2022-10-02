@@ -163,9 +163,26 @@ body {
 #form-text-area {
   resize: none; }
 
-.footer .navbar-section .navbar-nav a.active {
-  color: var(--main-color);
-  text-decoration: underline; }
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "navSection copySection contactSection";
+  background-color: rgba(var(--bs-dark-rgb), 0.5);
+  border-top: 1px solid rgba(var(--bs-dark-rgb), 1);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem; }
+  .footer .navbar-section {
+    grid-area: navSection; }
+    .footer .navbar-section .navbar-nav a.active {
+      color: var(--main-color);
+      text-decoration: underline; }
+    .footer .navbar-section .copy-section {
+      grid-area: contactSection; }
+    .footer .navbar-section .contact-section {
+      grid-area: copySection; }
 
 /*
  *  Modules - Custom - Header
