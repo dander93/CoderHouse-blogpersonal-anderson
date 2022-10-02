@@ -198,3 +198,13 @@ body {
     .card:hover {
       transform: translateY(-10px);
       box-shadow: 0 0 0.5rem var(--light-color) !important; } }
+
+@media (max-width: 768px) {
+  .footer {
+    grid-template-columns: 2fr;
+    grid-template-areas: "navSection contactSection"; } }
+
+@media (max-width: 425px) {
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-areas: "contactSection"; } }
