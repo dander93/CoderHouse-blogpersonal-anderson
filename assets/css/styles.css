@@ -20,7 +20,7 @@
   --bs-navbar-color: var(--main-rgb-color);
   --main-font: 'Inter', sans-serif; }
 
-body {
+* {
   font-family: var(--main-font); }
 
 .vh-50 {
@@ -92,7 +92,7 @@ body {
     min-height: 10%; }
   .card .card-text {
     height: 35%;
-    overflow-y: scroll; }
+    overflow-y: auto; }
   .card .card-link {
     color: var(--darken-color-50) !important;
     text-decoration: none;
