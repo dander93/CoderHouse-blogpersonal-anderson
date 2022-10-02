@@ -24,6 +24,7 @@
         grid-area: navSection;
 
         .navbar-nav {
+
             a.active {
                 @include mixin-footer-links-tyle-active(var(--main-color), underline);
                 // @extend %footer-links-tyle-active;
@@ -34,12 +35,13 @@
             }
         }
 
-        .copy-section {
-            grid-area: contactSection;
-        }
+    }
 
-        .contact-section {
-            grid-area: copySection;
-        }
+    .copy-section {
+        grid-area: copySection;
+    }
+    
+    .contact-section {
+        grid-area: contactSection;
     }
 }

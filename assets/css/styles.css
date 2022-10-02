@@ -179,10 +179,10 @@ body {
     .footer .navbar-section .navbar-nav a.active {
       color: var(--main-color);
       text-decoration: underline; }
-    .footer .navbar-section .copy-section {
-      grid-area: contactSection; }
-    .footer .navbar-section .contact-section {
-      grid-area: copySection; }
+  .footer .copy-section {
+    grid-area: copySection; }
+  .footer .contact-section {
+    grid-area: contactSection; }
 
 /*
  *  Modules - Custom - Header
