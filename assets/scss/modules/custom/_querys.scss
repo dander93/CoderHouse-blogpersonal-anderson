@@ -1,0 +1,21 @@
+/*
+ *  Modules - Custom - Header
+ * */
+
+@media (min-width:769px) {
+    .card {
+        height: 350px;
+        max-width: 250px;
+        transition: transform .5s;
+        
+        .card-img-top {
+            min-width: 248px;
+            min-height: 139px;
+        }
+
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 .5rem var(--light-color) !important;
+        }
+    }
+}

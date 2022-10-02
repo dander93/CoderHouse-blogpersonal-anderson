@@ -79,11 +79,38 @@ body {
 /*
  *   Modules - Bootstrap - Cards
  **/
-.card-img-top {
-  height: 10em !important; }
+.card {
+  max-width: 300px;
+  height: 500px;
+  color: var(--darken-color-50) !important; }
+  .card .card-img-top {
+    max-width: 100%;
+    max-height: 40%; }
+  .card .card-title {
+    color: var(--main-color);
+    margin-top: .5vh;
+    min-height: 10%; }
+  .card .card-text {
+    height: 35%;
+    overflow-y: scroll; }
+  .card .card-link {
+    color: var(--darken-color-50) !important;
+    text-decoration: none;
+    font-weight: 500; }
+    .card .card-link:hover {
+      color: var(--main-color) !important;
+      text-decoration: underline; }
 
-.carousel-item img {
-  height: 25rem; }
+/*
+ *  Modules - bootstrap - carousel
+ * */
+#carouselExampleIndicators .carousel-inner {
+  height: 50vh; }
+  #carouselExampleIndicators .carousel-inner .carousel-item img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 50vh;
+    display: block; }
 
 /*
  * Modules - Bootstrap - Buttons
@@ -139,3 +166,18 @@ body {
 .footer .navbar-section .navbar-nav a.active {
   color: var(--main-color);
   text-decoration: underline; }
+
+/*
+ *  Modules - Custom - Header
+ * */
+@media (min-width: 769px) {
+  .card {
+    height: 350px;
+    max-width: 250px;
+    transition: transform .5s; }
+    .card .card-img-top {
+      min-width: 248px;
+      min-height: 139px; }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 0.5rem var(--light-color) !important; } }
